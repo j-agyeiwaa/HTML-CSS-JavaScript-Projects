@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+#input-field {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: 1px solid #CFB53B;
+    border-radius: 3px;
+    color: #CFB53B;
+}
+
+#task-btn {
+    background: #CFB53B;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#task-btn:hover {
+    background: #DFCB6C;
+}
+
+#list {
+    list-style: square;
+    color: #CFB53B;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.delete-btn {
+    background: white;
+    color: #CFB53B;
+    font-weight: bold;
+    border: 1px solid #CFB53B;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#list li {
+    margin-bottom: 10px;
+}
